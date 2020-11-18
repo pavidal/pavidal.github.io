@@ -1,0 +1,40 @@
+html, body {
+    height: 100% !important;
+    /* overflow: hidden; */
+}
+
+main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* height: calc(100% - 6.6667rem); */
+    width: fit-content;
+    align-items: center;
+
+    /* margin-top: -6.6667rem; */
+}
+
+main div {
+    height: min-content;
+
+    /* margin-top: 15%; */
+
+    display: flex;
+    /* align-content: center; */
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+p {
+    text-indent: 0 !important;
+}
+
+h1.title {
+    line-height: normal;
+    /* margin: 0;
+
+    margin-bottom: 5rem; */
+}
