@@ -1,0 +1,22 @@
+:root {
+    --gradient-gre-blu: linear-gradient(90deg, #27AE60 0%, #2D9CDB 100%);
+    --gradient-blu-pur: linear-gradient(90deg, #2D9CDB 0%, #BB6BD9 100%);
+    --gradient-pur-red: linear-gradient(90deg, #BB6BD9 0%, #EB5757 100%);
+    --gradient-red-yel: linear-gradient(90deg, #EB5757 0%, #F2C94C 100%);
+
+}
+.grn-blu {
+    background: var(--gradient-gre-blu);
+}
+
+.blu-pur {
+    background: var(--gradient-blu-pur);
+}
+
+.pur-red {
+    background: var(--gradient-pur-red);
+}
+
+.red-yel {
+    background: var(--gradient-red-yel);
+}
