@@ -1,66 +1,77 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <!-- Own CSS -->
-    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Roboto:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet" href="./css/colour.css"> -->
+    <link rel="stylesheet" href="./css/index.css">
 
-    <title>> pavidal.github.io</title>
+    <script src="https://threejs.org/build/three.js"></script>
+    <!-- TODO: Remove jquery dependency -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="./js/index.js"></script>
+
+    <title>P A Vidal - Nav</title>
 </head>
 
 <body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand text-monospace" href="https://pavidal.github.io/#">> pavidal.github.io
-                <span class="blink">_</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse text-monospace font-weight-bold" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="https://pavidal.github.io/#">Home <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/pavidal">Github</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link"
-                            href="https://www.linkedin.com/in/puttiong-ander-vidal-56a9321a2/">LinkedIn</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-3">Thank you, stranger!</h1>
-                <p class="lead">But this site's content is in another server. (Don't worry, it's a work in progress.)
-                </p>
-            </div>
+    <nav>
+        <div class="navbar">
+            <a href="/" class="brand">pavidal.github.io</a>
         </div>
-    </div>
+        <div class="links-container">
+            <div class="webgl">
+                <!-- <canvas id="c"></canvas> -->
+            </div>
+            <ul class="links">
+                <li><a class="underline desktop-title" href="/">
+                        <h1>
+                            pavidal.github.io
+                            <span>
+                                <div class="line "></div>
+                            </span>
+                        </h1>
+                    </a></li>
+                <li><a class="underline" href="/about">
+                        <h1>
+                            About
+                            <span>
+                                <div class="line grn-blu"></div>
+                            </span>
+                        </h1>
+                    </a></li>
+                <li><a class="underline" href="/project">
+                        <h1>
+                            Projects
+                            <span>
+                                <div class="line blu-pur"></div>
+                            </span>
+                        </h1>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+                    </a></li>
+                <li><a class="underline" href="http://www.github.com/pavidal">
+                        <h1>
+                            GitHub
+                            <span>
+                                <div class="line pur-red"></div>
+                            </span>
+                        </h1>
+                    </a></li>
+                <li><a class="underline" href="https://www.linkedin.com/in/puttiong-ander-vidal-56a9321a2/">
+                        <h1>
+                            LinkedIn
+                            <span>
+                                <div class="line red-yel"></div>
+                            </span>
+                        </h1>
+                    </a></li>
+            </ul>
+        </div>
+    </nav>
 </body>
 
 </html>
